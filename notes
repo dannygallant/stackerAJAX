@@ -1,0 +1,11 @@
+
+- Create function to listen for 'inspiration-getter' submission. Use '$('.unanswered-getter').submit( function(event)' as template
+
+- Create a function that returns top answers via an Ajax call. Use getUnanswered() as a template.
+
+- Create a function that shows top answers for the search topics. Use showQuestion as a template and display on page using 'results' div.
+
+- Should be able to call showSearchResults() and showError() as-is.
+
+- Endpoint URL is: /2.2/tags/{tag}/top-answerers/all_time?site=stackoverflow
+  Probably won't be able to call it the same way as it is in getUnanswered(), since {tag} isn't passed as a key.
