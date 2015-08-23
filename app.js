@@ -12,7 +12,7 @@ $(document).ready( function() {
 		$('.results').html('');
 		// get the value of the tag the user submitted
 		var tag = $(this).find("input[name='answerers']").val();
-		console.log(tag);    // **** For testing. can delete  ****
+		// console.log(tag);    
 		getTopAnswerers(tag);
 	});
 
